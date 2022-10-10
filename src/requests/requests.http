@@ -1,0 +1,27 @@
+GET http://localhost:8080/songs
+
+###
+GET http://localhost:8080/songs/3
+
+###
+POST http://localhost:8080/songs
+Content-Type: application/json
+
+{
+  "title": "Sadza",
+  "author": "Monika Brodka",
+  "year": "2022"
+}
+###
+
+PUT http://localhost:8080/songs/1
+Content-Type: application/json
+
+{
+  "title": "Clocks",
+  "author": "Coldplay",
+  "year": "2003"
+}
+
+###
+DELETE http://localhost:8080/songs/1
