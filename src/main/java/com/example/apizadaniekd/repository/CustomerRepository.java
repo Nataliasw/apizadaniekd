@@ -17,9 +17,9 @@ public class CustomerRepository {
     private List<Customer> customers = new LinkedList<>(
             Arrays.asList(
                     new Customer(1L,"Anna","Nowak","abc@gmail.com","12345678"),
-                    new Customer(1L,"Marcin","Nowicki","ggg@gmail.com","12345678"),
-                    new Customer(1L,"Michal","Kowal","mmmm@gmail.com","12345678"),
-                    new Customer(1L,"Maria","Kowalczyk","ooo@gmail.com","12345678")
+                    new Customer(2L,"Marcin","Nowicki","ggg@gmail.com","12345678"),
+                    new Customer(3L,"Michal","Kowal","mmmm@gmail.com","12345678"),
+                    new Customer(4L,"Maria","Kowalczyk","ooo@gmail.com","12345678")
             )
     );
 
